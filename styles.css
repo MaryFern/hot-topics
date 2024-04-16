@@ -38,7 +38,7 @@ body {
 
 /* Masthead */
 .masthead {
-    background-image: url('../img/mh1.jpg');
+    background-image: url('./img/mh1.jpg');
     background-size: cover;
     background-position: center center;
     text-align: center;

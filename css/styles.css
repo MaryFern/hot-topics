@@ -189,15 +189,15 @@ p {
     }
 
     .portfolio-column {
-        width: 50%; /* Each column occupies half of the screen */
-        margin: 0; /* Remove margin to fill the whole screen */
+        width: 50%;
+        margin: 0;
     }
 
     .portfolio-card {
         width: 100%;
         text-align: left;
         padding: 0;
-        box-sizing: border-box; /* Ensure padding is included in width calculation */
+        box-sizing: border-box;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -304,11 +304,11 @@ p {
     .content article {
         display: flex;
         flex-wrap: wrap;
-        align-items: flex-start; /* Align items at the start of the container */
+        align-items: flex-start;
     }
     
     .content article figure {
-        flex: 0 0 auto; /* Let the image determine its own width */
+        flex: 0 0 auto;
         margin-right: 1rem;
     }
     
@@ -319,14 +319,14 @@ p {
     }
     
     .content article h2 {
-        flex: 0 0 100%; /* Heading takes up full width */
+        flex: 0 0 100%;
         margin-top: 0;
         margin-left: 80px;
     }
     
     .content article p {
-        flex: 1; /* Let the text take up remaining space */
-        margin-top: 0; /* Reset margin top */
+        flex: 1;
+        margin-top: 0;
     }
 
     /* Portfolio */
@@ -334,11 +334,11 @@ p {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 0 40px; /* Adjusted padding */
+        padding: 0 40px;
     }
 
     .portfolio-column {
-        width: calc(33.33% - 40px); /* Adjusted width to account for padding */
+        width: calc(33.33% - 40px);
         margin: 20px;
     }
 }
